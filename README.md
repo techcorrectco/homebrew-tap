@@ -1,6 +1,7 @@
 # Traceable
 
-Traceable is a command line utility for organizing the requirements of a Product Requirements Document (PRD). 
+As your project increases in scope so does the complexity of your Product Requirements Document (PRD). 
+Traceable is a command line utility for organizing your project's requirements and creating your PRD.
 
 ## Installation
 
