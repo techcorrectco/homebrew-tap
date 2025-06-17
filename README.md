@@ -6,7 +6,7 @@ Traceable is a command line utility for organizing your project's requirements a
 ## Installation
 
 ```sh
-$ brew install techcorrectco/traceable
+$ brew install techcorrectco/tap/traceable
 ```
 
 ## Usage
