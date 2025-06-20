@@ -13,28 +13,28 @@ cask "traceable" do
   on_macos do
     on_intel do
       url "https://github.com/techcorrectco/homebrew-tap/releases/download/v0.1.0/traceable_Darwin_x86_64.tar.gz"
-      sha256 "991e5e0e6fe79aa21e58f12418e8c8933ca0fd00df68a5319edc4590d83cf032"
+      sha256 "2de04b976d7f1ed2dba7997fcfe80e066f9845360087da923eabfad831ca540a"
     end
     on_arm do
       url "https://github.com/techcorrectco/homebrew-tap/releases/download/v0.1.0/traceable_Darwin_arm64.tar.gz"
-      sha256 "db0d45462f55a9f7df969959f1568234a26c4508afabe8ad244bedd49da6e69b"
+      sha256 "ce3c84260270a036d328619e26fe4d5aa9e8f23a8a96a4e47258160e32a888ce"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/techcorrectco/homebrew-tap/releases/download/v0.1.0/traceable_Linux_x86_64.tar.gz"
-      sha256 "a5fbea7e8327d39e0456aa1aa107340ff95beab46da4eb2b0cc385da9e0c3a52"
+      sha256 "32311be0dbb3812bb48799e39689ad0b050d236d5d4bdcd967fb34c3ea38c2f7"
     end
     on_arm do
       url "https://github.com/techcorrectco/homebrew-tap/releases/download/v0.1.0/traceable_Linux_arm64.tar.gz"
-      sha256 "11e50f55f73f7f3f71947fd12b16f072464a76cd9081473e23e826939622fdd9"
+      sha256 "901eb9d553aa3d72490263c81af3d93cd5ab15105fd4930caa4f7255b1859c20"
     end
   end
 
   caveats do
-    ""If on Mac OS, unquarantine 'traceable' with the following command:"
-    "    /usr/bin/xattr -dr com.apple.quarantine #{staged_path}/traceable""
+    "If on Mac OS, unquarantine 'traceable' with the following command:"
+    "    /usr/bin/xattr -dr com.apple.quarantine #{staged_path}/traceable"
   end
 
   # No zap stanza required
