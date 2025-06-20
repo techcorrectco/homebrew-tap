@@ -1,12 +1,24 @@
 # Traceable
 
 As your project increases in scope so does the complexity of your Product Requirements Document (PRD). 
-Traceable is a command line utility for organizing your project's requirements and creating your PRD.
+
+Traceable is a command line utility for organizing your project's requirements and generating your PRD.
 
 ## Installation
 
 ```sh
-$ brew install techcorrectco/tap/traceable
+$ brew install --cask techcorrectco/tap/traceable
+```
+
+### Mac OS
+
+The executable is not notorized. Because the project is not open source, we **DO NOT** unquarantine
+the executable automatically during the installation process. 
+
+Remove the quarantine bit with the following command:
+
+```sh
+$ which traceable | xargs /usr/bin/xattr -dr com.apple.quarantine
 ```
 
 ## Usage
